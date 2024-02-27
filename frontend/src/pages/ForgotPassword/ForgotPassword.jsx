@@ -10,8 +10,8 @@ const ForgotPassword = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        await forgotPW(username, password,confirmPassword)
-        .then(() => navigate("/login"));
+        await forgotPW(username,password,confirmPassword)
+        
     };
 
     return (
