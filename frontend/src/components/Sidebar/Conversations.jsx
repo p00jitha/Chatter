@@ -8,7 +8,7 @@ const Conversations = () => {
 			{conversation.map((person) => (
 				<Conversation
 					key={person._id}
-					conversation={person}
+					conversationperson={person}
 				/>
 			))}
 			{loading ? <span className='loading loading-spinner mx-auto'></span> : null}
