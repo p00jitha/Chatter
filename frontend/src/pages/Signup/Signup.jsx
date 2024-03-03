@@ -1,9 +1,11 @@
 import React,{useState} from 'react'
+import { useNavigate } from 'react-router-dom'
 import {Link} from 'react-router-dom'
 import CheckBox from './CheckBox';
 import useSignup from "../../Hooks/useSignup";
 
 const SignUp = () => {
+  const navigate = useNavigate();
   const [inputs, setInputs] = useState({
 		email: "",
 		username: "",
@@ -20,7 +22,8 @@ const SignUp = () => {
   const handleSubmit = async (e) =>
   {
     e.preventDefault();
-    await signup(inputs);
+    await signup(inputs)
+    .then(()=>navigate("/login"))
   }
   return (
     <div>
