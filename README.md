@@ -23,14 +23,21 @@ To run this application locally, follow these steps:
 1. Clone this repository to your local machine.
 2. Navigate to the project directory in your terminal.
 3. Install the dependencies by running `npm install` in the root directory.
-4. Start the development server by running `npm start`.
-5. Create a `.env` file in the root directory and add the following environment variables:
+4. Create a `.env` file in the root directory and add the following environment variables:
+   
    DB_URL=
+   
    JWT_SECRET=
+   
    NODE_ENV=
-Replace `http://localhost:5000` with the appropriate URLs for your backend server.
-6. Start the development server by running `npm start`.
-7. Open your web browser and navigate to `http://localhost:3000` to view the application.
+   
+   Replace `http://localhost:5000` with the appropriate URLs for your backend server.
+
+ 5.npm run build
+
+ 6. Start the development server by running `npm start`.
+   
+ 7. Open your web browser and navigate to `http://localhost:5000` to view the application.
 
 ## Demo
 
