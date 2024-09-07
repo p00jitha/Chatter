@@ -2,6 +2,8 @@
 
 This project is a full-stack web application built using the MERN stack (MongoDB, Express.js, React.js, Node.js) and Socket.IO for real-time communication.
 
+![Screenshot 2024-07-09 162904](https://github.com/user-attachments/assets/3d9a5a5d-1fd3-4d2d-bb74-015523baa418)
+
 ## Features
 
 - Real-time messaging: Users can send and receive messages instantly.
@@ -15,7 +17,6 @@ This project is a full-stack web application built using the MERN stack (MongoDB
 - React.js: A JavaScript library used for building the frontend user interface.
 - Node.js: A JavaScript runtime used to run the server-side code.
 - Socket.IO: A library that enables real-time, bidirectional and event-based communication between web clients and servers.
-- 
 ## Installation
 
 To run this application locally, follow these steps:
